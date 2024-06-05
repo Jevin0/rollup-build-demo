@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "module": "ESNext",
+      "target": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "esModuleInterop": true,
+      // "declarationDir": "dist",
+      "outDir": "./dist/es",
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "skipLibCheck": true,
+      "useDefineForClassFields": true,
+      "jsx": "preserve",
+      "lib": ["ESNext","DOM"]
+    },
+    "include": ["src/index1.ts", "shims-vue.d.ts"],
+
+    "exclude": ["node_modules", "**/__tests__/**"]
+}
